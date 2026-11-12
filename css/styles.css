@@ -1,0 +1,60 @@
+/* zminni */
+
+:root {
+    --color-brand-light: #819B57;
+    --color-brand-dark: #465929;
+    --color-primary-dark:#31261a;
+    --color-primary-light:#faf4ea;
+    
+}
+
+/* GLOBAL */
+body {
+    color:var(--color-primary-dark);
+}
+ul {
+    list-style: none;
+}
+/* BUTTONS */
+.button {
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 8px;
+    color:var(--color-primary-light);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-brand-dark);
+}
+
+/* LINKS */
+.heared-link {
+    color: var;
+}
+
+.heared-link:hover {
+    color: var(--color-brand-light);
+}
+
+/* HERO SECTION */
+.hero-title {
+    color: var;
+}
+
+.hero-title .accent {
+    color: var(--color-brand-light);
+}
+
+/* ADVANTAGES SECTION */
+
+.advantages-list {
+    color: var;
+    background-color: var(--color-brand);
+}
+
+.section-title .accent {
+    color: var(--color-brand-dark);
+}
+
