@@ -1,0 +1,23 @@
+.section {
+    padding: 48px 0;
+
+    &__title {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 1.3;
+        
+
+        &--centered {
+            text-align: center;
+        }
+    }
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
