@@ -10,19 +10,15 @@
             rgba(49, 38, 26, 0.71) 72.92%,
             #31261a 100%);
     border-radius: 16px;
-    transition: transform 0.3s;
-
-    &hover {
-            transform: scale(1.05);
-        }
+    overflow: hidden;
 
     &__img {
             z-index: -1;
             position: absolute;
             top: 0;
             left: 0;
-            right: 0;
-            bottom: 0;
+            width: 100%;
+            height: 100%;
         }
 
         &__title {

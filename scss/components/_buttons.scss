@@ -6,11 +6,16 @@
     color: var(--color-primary-normal);
     cursor: pointer;
     font-weight: 600;
-    font-size: 18px;
-    padding: 16px 32px;
+    font-size: 16px;
+    padding: 10px 24px;
     transition:
         color 0.3s,
         background-color 0.3s;
+
+    @media screen and (min-width: $bp-tablet) {
+        padding: 16px 32px;
+        font-size: 18px;
+    }
 }
 
 .button:hover {
